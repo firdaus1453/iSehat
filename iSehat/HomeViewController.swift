@@ -10,8 +10,10 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var diseaseCollectionView: UICollectionView!
+    @IBOutlet weak var articleTableView: UITableView!
     
     var dataDisease = [DiseaseModel]()
+    var dataArticle = [ArticleModel]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,12 +24,21 @@ class HomeViewController: UIViewController {
         diseaseCollectionView.delegate = self
         diseaseCollectionView.dataSource = self
         
+        articleTableView.delegate = self
+        articleTableView.dataSource = self
+        
         initDataDisease()
+        initDataArticle()
     }
     
     func initDataDisease() {
         dataDisease = getDataDisease()
         diseaseCollectionView.reloadData()
+    }
+    
+    func initDataArticle() {
+        dataArticle = getDataArticle()
+        articleTableView.reloadData()
     }
 }
 
@@ -59,5 +70,27 @@ extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSou
         self.navigationController?.pushViewController(viewController, animated: true)
     }
 }
+
+extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataArticle.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let article = dataArticle[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ArticleCell") as! ArticleTableViewCell
+        cell.layer.cornerRadius = 10
+        cell.setArticle(article: article)
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let article = dataArticle[indexPath.row]
+        let url = URL(string: article.content ?? "www.kompas.com")!
+        UIApplication.shared.open(url)
+    }
+}
+
+
 
 
