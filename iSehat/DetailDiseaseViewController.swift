@@ -18,6 +18,7 @@ class DetailDiseaseViewController: UIViewController {
     @IBOutlet weak var contentCauseLabel: UILabel!
     @IBOutlet weak var titleTreatmentLabel: UILabel!
     @IBOutlet weak var contentTreatmentLabel: UILabel!
+    @IBOutlet weak var doctorLabel: UILabel!
     
     var dataDetailDisease = DiseaseModel()
     
@@ -40,6 +41,8 @@ class DetailDiseaseViewController: UIViewController {
         contentSymtomsLabel.text = dataDetailDisease.symptoms
         contentCauseLabel.text = dataDetailDisease.cause
         contentTreatmentLabel.text = dataDetailDisease.treatment
+        
+        doctorLabel.text = dataDetailDisease.doctor
     }
     
     func setDataDetailDisease(dataDetailDisease : DiseaseModel) {
