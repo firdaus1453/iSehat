@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		3FDBEFA82621716B002B9509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBEFA72621716B002B9509 /* AppDelegate.swift */; };
 		3FDBEFAA2621716B002B9509 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBEFA92621716B002B9509 /* SceneDelegate.swift */; };
-		3FDBEFAC2621716B002B9509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBEFAB2621716B002B9509 /* ViewController.swift */; };
 		3FDBEFAF2621716B002B9509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBEFAD2621716B002B9509 /* Main.storyboard */; };
 		3FDBEFB12621716B002B9509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBEFB02621716B002B9509 /* Assets.xcassets */; };
 		3FDBEFB42621716B002B9509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBEFB22621716B002B9509 /* LaunchScreen.storyboard */; };
+		3FDBEFBD26219638002B9509 /* DiseaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBEFBC26219638002B9509 /* DiseaseCollectionViewCell.swift */; };
+		3FDBEFC02621980D002B9509 /* DiseaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBEFBF2621980D002B9509 /* DiseaseModel.swift */; };
+		3FFAC5712621AC4600E326A2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAC5702621AC4600E326A2 /* GradientView.swift */; };
+		3FFAC5742621B4FC00E326A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAC5732621B4FC00E326A2 /* HomeViewController.swift */; };
+		3FFAC5782621B62900E326A2 /* DetailDiseaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAC5772621B62900E326A2 /* DetailDiseaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FDBEFA42621716B002B9509 /* iSehat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSehat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDBEFA72621716B002B9509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FDBEFA92621716B002B9509 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FDBEFAB2621716B002B9509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FDBEFAE2621716B002B9509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FDBEFB02621716B002B9509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FDBEFB32621716B002B9509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FDBEFB52621716B002B9509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDBEFBC26219638002B9509 /* DiseaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FDBEFBF2621980D002B9509 /* DiseaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseModel.swift; sourceTree = "<group>"; };
+		3FFAC5702621AC4600E326A2 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		3FFAC5732621B4FC00E326A2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3FFAC5772621B62900E326A2 /* DetailDiseaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDiseaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				3FDBEFA72621716B002B9509 /* AppDelegate.swift */,
 				3FDBEFA92621716B002B9509 /* SceneDelegate.swift */,
-				3FDBEFAB2621716B002B9509 /* ViewController.swift */,
+				3FFAC5732621B4FC00E326A2 /* HomeViewController.swift */,
+				3FFAC5772621B62900E326A2 /* DetailDiseaseViewController.swift */,
 				3FDBEFAD2621716B002B9509 /* Main.storyboard */,
+				3FDBEFBF2621980D002B9509 /* DiseaseModel.swift */,
+				3FDBEFBC26219638002B9509 /* DiseaseCollectionViewCell.swift */,
 				3FDBEFB02621716B002B9509 /* Assets.xcassets */,
 				3FDBEFB22621716B002B9509 /* LaunchScreen.storyboard */,
 				3FDBEFB52621716B002B9509 /* Info.plist */,
+				3FFAC5702621AC4600E326A2 /* GradientView.swift */,
 			);
 			path = iSehat;
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FDBEFAC2621716B002B9509 /* ViewController.swift in Sources */,
 				3FDBEFA82621716B002B9509 /* AppDelegate.swift in Sources */,
+				3FFAC5712621AC4600E326A2 /* GradientView.swift in Sources */,
+				3FDBEFC02621980D002B9509 /* DiseaseModel.swift in Sources */,
 				3FDBEFAA2621716B002B9509 /* SceneDelegate.swift in Sources */,
+				3FFAC5742621B4FC00E326A2 /* HomeViewController.swift in Sources */,
+				3FDBEFBD26219638002B9509 /* DiseaseCollectionViewCell.swift in Sources */,
+				3FFAC5782621B62900E326A2 /* DetailDiseaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
