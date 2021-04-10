@@ -17,7 +17,8 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         navigationController?.navigationBar.prefersLargeTitles = true
-        
+        navigationItem.largeTitleDisplayMode = .always
+
         diseaseCollectionView.delegate = self
         diseaseCollectionView.dataSource = self
         
@@ -57,14 +58,6 @@ extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSou
         
         self.navigationController?.pushViewController(viewController, animated: true)
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        if #available(iOS 11.0, *) {
-                self.navigationController?.navigationBar.prefersLargeTitles = true
-                self.navigationController?.navigationItem.largeTitleDisplayMode = .automatic // Change Display Mode
-            }else{
-                // Fallback on earlier versions
-            }
-    }
 }
+
 

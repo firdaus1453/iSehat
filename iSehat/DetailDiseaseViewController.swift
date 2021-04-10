@@ -23,7 +23,8 @@ class DetailDiseaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.navigationItem.largeTitleDisplayMode = .never
+        self.navigationItem.largeTitleDisplayMode = .never
+
         setupUI()
     }
     
@@ -49,5 +50,4 @@ class DetailDiseaseViewController: UIViewController {
         navigationItem.largeTitleDisplayMode = .always
         navigationController?.navigationBar.prefersLargeTitles = true
     }
-
 }
