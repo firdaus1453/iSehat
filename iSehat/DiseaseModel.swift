@@ -29,7 +29,7 @@ func getDataDisease() -> [DiseaseModel] {
     var diseaseTemp = [DiseaseModel]()
     
     let sakitKepala = DiseaseModel(title: "Sakit Kepala", image: "sakit-kepala", deskripsi: """
-    Sakit kepala adalah rasa sakit atau nyeri di kepala, yang bisa muncul secara bertahap atau mendadak. Nyeri bisa muncul di salah satu sisi kepala, atau di seluruh bagian kepala. Sakit kepala bisa membuat kepala terasa berdenyut, atau seperti terlilit kencang oleh tali.
+Sakit kepala adalah rasa sakit atau nyeri di kepala, yang bisa muncul secara bertahap atau mendadak. Nyeri bisa muncul di salah satu sisi kepala, atau di seluruh bagian kepala. Sakit kepala bisa membuat kepala terasa berdenyut, atau seperti terlilit kencang oleh tali.
 """,
                                    symptoms: """
     Gejala sakit kepala adalah sakit atau nyeri di kepala, yang bisa menyebar ke wajah, leher, dan bahu. Penglihatan penderita juga dapat menjadi buram, serta lebih sensitif terhadap cahaya dan suara.
@@ -45,7 +45,7 @@ func getDataDisease() -> [DiseaseModel] {
     
     
     let demam = DiseaseModel(title: "Demam", image: "demam", deskripsi: """
-    Demam adalah kondisi meningkatnya suhu tubuh hingga lebih dari 380C. Demam menandakan adanya penyakit atau kondisi lain di dalam tubuh.
+Demam adalah kondisi meningkatnya suhu tubuh hingga lebih dari 380C. Demam menandakan adanya penyakit atau kondisi lain di dalam tubuh.
 """,
                                    symptoms: """
     Demam merupakan gejala dari beragam kondisi dan penyakit. Biasanya, demam akan disertai gejala lain akibat kondisi yang mendasarinya. Beberapa di antaranya adalah:
@@ -85,7 +85,7 @@ func getDataDisease() -> [DiseaseModel] {
     
     
     let sakitPerut = DiseaseModel(title: "Sakit Perut", image: "sakit-perut", deskripsi: """
-    Sakit perut adalah rasa nyeri yang muncul di perut, yaitu area di antara tulang iga dan tulang panggul. Ketika mengalami sakit perut, seseorang dapat merasakan kram, mulas, atau rasa seperti tertusuk di perut.
+Sakit perut adalah rasa nyeri yang muncul di perut, yaitu area di antara tulang iga dan tulang panggul. Ketika mengalami sakit perut, seseorang dapat merasakan kram, mulas, atau rasa seperti tertusuk di perut.
 """,
                                    symptoms: """
     Sakit perut bisa terasa seperti kram, mulas, atau menusuk, dengan tingkatan ringan hingga berat. Terkadang, nyeri perut juga bisa muncul beserta kedutan di perut. Area perut yang sakit bisa berbeda-beda, tergantung kepada penyebabnya. Pada sejumlah kondisi, nyeri juga dapat berpindah dari satu area perut ke area perut yang lain.
@@ -206,7 +206,7 @@ func getDataDisease() -> [DiseaseModel] {
     
     
     let pusing = DiseaseModel(title: "Pusing", image: "pusing", deskripsi: """
-    Pusing adalah sensasi seperti melayang, berputar, kliyengan, atau merasa akan pingsan. Pusing bisa dialami oleh siapa saja dan sensasinya dapat dirasakan berbeda antara satu orang dengan orang lainnya.
+Pusing adalah sensasi seperti melayang, berputar, kliyengan, atau merasa akan pingsan. Pusing bisa dialami oleh siapa saja dan sensasinya dapat dirasakan berbeda antara satu orang dengan orang lainnya.
 """,
     symptoms: """
     Pusing dapat ditandai dengan munculnya sensasi berikut:
