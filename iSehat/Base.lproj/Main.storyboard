@@ -292,31 +292,31 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Symtoms" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmi-1m-ivy">
-                                                <rect key="frame" x="16" y="504" width="382" height="16.5"/>
+                                                <rect key="frame" x="16" y="504" width="382" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Penyebab" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRq-Sg-EPR">
-                                                <rect key="frame" x="16" y="586.5" width="382" height="24"/>
+                                                <rect key="frame" x="16" y="570" width="382" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cause" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSz-iu-FCB">
-                                                <rect key="frame" x="16" y="676.5" width="382" height="20.5"/>
+                                                <rect key="frame" x="16" y="660" width="382" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Pengobatan dan pencegahan" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4p1-Kd-cRh">
-                                                <rect key="frame" x="16" y="763" width="382" height="24"/>
+                                                <rect key="frame" x="16" y="746.5" width="382" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Treatment" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBg-cA-bsR">
-                                                <rect key="frame" x="16" y="853" width="382" height="20.5"/>
+                                                <rect key="frame" x="187" y="836.5" width="40" height="37"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -338,6 +338,7 @@
                                             <constraint firstAttribute="trailing" secondItem="7pp-5r-Pw1" secondAttribute="trailing" id="AfC-cK-rZ4"/>
                                             <constraint firstItem="TBg-cA-bsR" firstAttribute="leading" secondItem="fST-Mc-tfG" secondAttribute="leading" constant="16" id="Bft-Ga-FrL"/>
                                             <constraint firstItem="vmi-1m-ivy" firstAttribute="top" secondItem="lPR-GQ-uCp" secondAttribute="bottom" constant="16" id="Bya-DM-H8e"/>
+                                            <constraint firstItem="4SH-0q-iM4" firstAttribute="trailing" secondItem="TBg-cA-bsR" secondAttribute="trailing" id="GJn-6H-4v8"/>
                                             <constraint firstItem="7pp-5r-Pw1" firstAttribute="leading" secondItem="fST-Mc-tfG" secondAttribute="leading" id="Ipc-H9-hbW"/>
                                             <constraint firstAttribute="trailing" secondItem="4p1-Kd-cRh" secondAttribute="trailing" constant="16" id="K4C-ep-Lod"/>
                                             <constraint firstAttribute="trailing" secondItem="lPR-GQ-uCp" secondAttribute="trailing" constant="16" id="KJV-pf-x5M"/>
@@ -346,6 +347,7 @@
                                             <constraint firstAttribute="trailing" secondItem="FSz-iu-FCB" secondAttribute="trailing" constant="16" id="RPz-LY-hc1"/>
                                             <constraint firstItem="vmi-1m-ivy" firstAttribute="leading" secondItem="fST-Mc-tfG" secondAttribute="leading" constant="16" id="SSR-OZ-ZZY"/>
                                             <constraint firstItem="lPR-GQ-uCp" firstAttribute="top" secondItem="Nzd-YL-KhZ" secondAttribute="bottom" constant="20" id="UIZ-Za-0dB"/>
+                                            <constraint firstItem="4SH-0q-iM4" firstAttribute="leading" secondItem="TBg-cA-bsR" secondAttribute="leading" id="Y6o-5P-BLR"/>
                                             <constraint firstItem="PRq-Sg-EPR" firstAttribute="top" secondItem="vmi-1m-ivy" secondAttribute="bottom" constant="20" id="bAf-dP-qg6"/>
                                             <constraint firstItem="4SH-0q-iM4" firstAttribute="top" secondItem="TBg-cA-bsR" secondAttribute="bottom" constant="20" id="hla-fi-wiL"/>
                                             <constraint firstItem="4p1-Kd-cRh" firstAttribute="leading" secondItem="fST-Mc-tfG" secondAttribute="leading" constant="16" id="irO-51-Fmb"/>
