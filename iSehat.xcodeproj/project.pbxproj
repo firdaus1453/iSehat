@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F7169E0262366A700B1070F /* SectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7169DF262366A700B1070F /* SectionDetailViewController.swift */; };
+		3F7169E326236E5700B1070F /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7169E226236E5700B1070F /* VideoTableViewCell.swift */; };
 		3FA366B9262352D40038B0DA /* SectionDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA366B8262352D40038B0DA /* SectionDetailTableViewCell.swift */; };
 		3FC5FD1E26225EDF001DC0D0 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5FD1D26225EDF001DC0D0 /* ArticleModel.swift */; };
 		3FD292FC26225B36000C5EF2 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD292FB26225B36000C5EF2 /* ArticleTableViewCell.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F7169DF262366A700B1070F /* SectionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetailViewController.swift; sourceTree = "<group>"; };
+		3F7169E226236E5700B1070F /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		3FA366B8262352D40038B0DA /* SectionDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetailTableViewCell.swift; sourceTree = "<group>"; };
 		3FC5FD1D26225EDF001DC0D0 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		3FD292FB26225B36000C5EF2 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
@@ -74,7 +78,9 @@
 				3FDBEFA92621716B002B9509 /* SceneDelegate.swift */,
 				3FFAC5732621B4FC00E326A2 /* HomeViewController.swift */,
 				3FFAC5772621B62900E326A2 /* DetailDiseaseViewController.swift */,
+				3F7169DF262366A700B1070F /* SectionDetailViewController.swift */,
 				3FDBEFAD2621716B002B9509 /* Main.storyboard */,
+				3F7169E226236E5700B1070F /* VideoTableViewCell.swift */,
 				3FA366B8262352D40038B0DA /* SectionDetailTableViewCell.swift */,
 				3FD292FB26225B36000C5EF2 /* ArticleTableViewCell.swift */,
 				3FC5FD1D26225EDF001DC0D0 /* ArticleModel.swift */,
@@ -161,7 +167,9 @@
 				3FA366B9262352D40038B0DA /* SectionDetailTableViewCell.swift in Sources */,
 				3FDBEFA82621716B002B9509 /* AppDelegate.swift in Sources */,
 				3FC5FD1E26225EDF001DC0D0 /* ArticleModel.swift in Sources */,
+				3F7169E0262366A700B1070F /* SectionDetailViewController.swift in Sources */,
 				3FFAC5712621AC4600E326A2 /* GradientView.swift in Sources */,
+				3F7169E326236E5700B1070F /* VideoTableViewCell.swift in Sources */,
 				3FDBEFC02621980D002B9509 /* DiseaseModel.swift in Sources */,
 				3FDBEFAA2621716B002B9509 /* SceneDelegate.swift in Sources */,
 				3FD292FC26225B36000C5EF2 /* ArticleTableViewCell.swift in Sources */,

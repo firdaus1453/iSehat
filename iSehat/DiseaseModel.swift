@@ -15,6 +15,9 @@ struct DiseaseModel {
     var cause: String?
     var treatment: String?
     var doctor: String?
+    var urlVideo : String?
+    var imageVideo : String?
+    var titleVideo : String?
 }
 
 struct SectionDiseaseModel {
@@ -38,7 +41,9 @@ func getDataDisease() -> [DiseaseModel] {
     Pengobatan sakit kepala tergantung dari penyebabnya. Bila tidak ada gejala lain yang berbahaya, sakit kepala dapat diredakan dengan obat-obatan yang dijual bebas, seperti paracetamol. Bila sakit kepala dirasa mengkhawatirkan, segeralah berkonsultasi dengan dokter untuk mendapatkan pemeriksaan dan penanganan yang sesuai.
 
     Untuk mencegah sakit kepala akibat perilaku sehari-hari, terapkanlah perilaku hidup yang sehat, misalnya beristirahat dengan cukup dan rutin berolahraga. Sedangkan untuk sakit kepala akibat suatu penyakit, pencegahan yang terbaik adalah dengan mengobati penyebabnya.
-""", doctor: "dr. Tjin Willy, alodokter.com")
+""", doctor: "dr. Tjin Willy, alodokter.com", urlVideo: "https://www.youtube.com/watch?v=BV4FVVaGABo", imageVideo:"video1", titleVideo: "Sakit Kepala Tanda Tubuh Berpenyakit | LifestyleOne")
+    
+    
     let demam = DiseaseModel(title: "Demam", image: "demam", deskripsi: """
     Demam adalah kondisi meningkatnya suhu tubuh hingga lebih dari 380C. Demam menandakan adanya penyakit atau kondisi lain di dalam tubuh.
 """,
@@ -75,7 +80,10 @@ func getDataDisease() -> [DiseaseModel] {
     - Obat antijamur
 
     Demam dapat dicegah hanya jika kondisi atau penyakit yang menyebabkan demam dapat dihindari.
-""", doctor: "dr. Merry Dame Cristy Pane, alodokter.com")
+""", doctor: "dr. Merry Dame Cristy Pane, alodokter.com", urlVideo: "https://www.youtube.com/watch?v=_zjYBowMWUQ", imageVideo: "video-demam" ,titleVideo: "Kompres Air Hangat Atau DIngin? Ini Cara Tepat Turunkan Demam | lifestyleOne")
+    
+    
+    
     let sakitPerut = DiseaseModel(title: "Sakit Perut", image: "sakit-perut", deskripsi: """
     Sakit perut adalah rasa nyeri yang muncul di perut, yaitu area di antara tulang iga dan tulang panggul. Ketika mengalami sakit perut, seseorang dapat merasakan kram, mulas, atau rasa seperti tertusuk di perut.
 """,
@@ -193,7 +201,10 @@ func getDataDisease() -> [DiseaseModel] {
     
     Selain melakukan langkah pencegahan di atas, tak ada salahnya untuk mengikuti asuransi kesehatan yang terpercaya. Hal ini karena
     sakit perut mungkin saja disebabkan oleh penyakit tertentu yang membutuhkan biaya pengobatan yang tidak sedikit.
-""", doctor: "dr. Tjin Willy, alodokter.com")
+""", doctor: "dr. Tjin Willy, alodokter.com", urlVideo: "https://www.youtube.com/watch?v=y840xgbLoCg", imageVideo : "video-sakit-perut", titleVideo: "Sakit Perut Jangan Dibiarkan, Awas Radang Usus - Ayo Hidup Sehat")
+    
+    
+    
     let pusing = DiseaseModel(title: "Pusing", image: "pusing", deskripsi: """
     Pusing adalah sensasi seperti melayang, berputar, kliyengan, atau merasa akan pingsan. Pusing bisa dialami oleh siapa saja dan sensasinya dapat dirasakan berbeda antara satu orang dengan orang lainnya.
 """,
@@ -267,7 +278,7 @@ func getDataDisease() -> [DiseaseModel] {
 
     Beberapa prosedur lain, seperti pengangkatan bagian organ pendengaran, juga dapat dilakukan jika beberapa metode di atas tidak dapat
     mengobati rasa pusing yang dialami.
-""", doctor: "dr. Tjin Willy, alodokter.com")
+""", doctor: "dr. Tjin Willy, alodokter.com", urlVideo: "https://www.youtube.com/watch?v=9QeLJ7ip-Zo", imageVideo: "video-pusing", titleVideo: "Sering Pusing? Awas Meningitis! | Ayo Hidup Sehat")
     
     diseaseTemp.append(sakitKepala)
     diseaseTemp.append(demam)
