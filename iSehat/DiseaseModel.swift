@@ -17,6 +17,11 @@ struct DiseaseModel {
     var doctor: String?
 }
 
+struct SectionDiseaseModel {
+    var title: String?
+    var content: String?
+}
+
 func getDataDisease() -> [DiseaseModel] {
     var diseaseTemp = [DiseaseModel]()
     
