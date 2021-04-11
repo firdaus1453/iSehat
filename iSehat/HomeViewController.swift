@@ -79,7 +79,7 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let article = dataArticle[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "ArticleCell") as! ArticleTableViewCell
-        cell.layer.cornerRadius = 10
+        cell.articleImageView.layer.cornerRadius = 10
         cell.setArticle(article: article)
         return cell
     }

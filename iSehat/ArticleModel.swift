@@ -21,6 +21,6 @@ func getDataArticle() -> [ArticleModel] {
     content : "https://health.kompas.com/read/2020/04/25/193100668/10-cara-meningkatkan-daya-tahan-tubuh?page=all")
     let article2 = ArticleModel(image: "article2", title: "13 Makanan untuk Meningkatkan Daya Tahan Tubuh", author : "kompas.com", content : "https://health.kompas.com/read/2020/06/06/120000868/13-makanan-untuk-meningkatkan-daya-tahan-tubuh?page=all")
     article.append(article1)
-//    article.append(article2)
+    article.append(article2)
     return article
 }
