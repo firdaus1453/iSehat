@@ -45,7 +45,7 @@ class DetailDiseaseViewController: UIViewController {
         detailDiseaseImageView.image = UIImage(named: dataDetailDisease.image ?? "")
         titleDetailDiseaseLabel.text = dataDetailDisease.title
         descDiseaseLabel.text = dataDetailDisease.deskripsi
-        doctorLabel.text = "Ditinjau oleh : \(dataDetailDisease.doctor ?? "")"
+        doctorLabel.text = "Sumber: \(dataDetailDisease.doctor ?? "")"
     }
     
     func setDataDetailDisease(dataDetailDisease : DiseaseModel) {
